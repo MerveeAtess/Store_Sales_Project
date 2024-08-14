@@ -30,10 +30,10 @@ Key Steps in the Project
 
 📈 Exponential Moving Averages: For a more responsive trend analysis.
 
-📍 Modeling:
+3. 📍 Modeling:
 • We tested various models including ARIMA, SARIMAX, and LGBM. The LGBM model outperformed the others by capturing complex relationships and trends in the data, providing the most accurate forecasts.
 
-📊 Analysis and Results:
+4. 📊 Analysis and Results:
 • The LGBM model proved exceptional in predicting sales, offering crucial insights into future sales trends that are essential for strategic planning.
 
 • Key Insights:
@@ -42,5 +42,5 @@ Key Steps in the Project
 
 📆 Interaction Terms: Promotions during holidays had a marked impact on sales, effectively captured by our model.
 
-📈 Visualization and Presentation:
+5. 📈 Visualization and Presentation:
 • We utilized Power BI to craft interactive dashboards, delivering a clear and dynamic presentation of our findings and model predictions. The visualizations, which are included in the project, facilitate a deeper understanding of temporal sales patterns and the effectiveness of our forecasting model.
