@@ -31,9 +31,11 @@ Key Steps in the Project
 📈 Exponential Moving Averages: For a more responsive trend analysis.
 
 3. 📍 Modeling:
+   
 • We tested various models including ARIMA, SARIMAX, and LGBM. The LGBM model outperformed the others by capturing complex relationships and trends in the data, providing the most accurate forecasts.
 
-4. 📊 Analysis and Results:
+5. 📊 Analysis and Results:
+   
 • The LGBM model proved exceptional in predicting sales, offering crucial insights into future sales trends that are essential for strategic planning.
 
 • Key Insights:
