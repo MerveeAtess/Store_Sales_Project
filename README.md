@@ -45,4 +45,5 @@ Key Steps in the Project
 📆 Interaction Terms: Promotions during holidays had a marked impact on sales, effectively captured by our model.
 
 5. 📈 Visualization and Presentation:
+   
 • We utilized Power BI to craft interactive dashboards, delivering a clear and dynamic presentation of our findings and model predictions. The visualizations, which are included in the project, facilitate a deeper understanding of temporal sales patterns and the effectiveness of our forecasting model.
