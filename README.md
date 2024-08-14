@@ -4,11 +4,11 @@ In our project focused on forecasting store sales for Rossmann, our goal was to 
 
 Key Steps in the Project
 
-1.🔍 Problem Identification:
+1. 🔍 Problem Identification:
 
 •Rossmann’s challenge was to optimize inventory management by accurately forecasting sales, which would reduce excess stock and minimize stock shortages across its stores.
 
-2.🛠️ Feature Engineering:
+2. 🛠️ Feature Engineering:
 
 •We introduced new features such as lagged sales data, rolling averages, and interaction terms between promotions and holidays to enhance the prediction accuracy.
 
@@ -34,7 +34,7 @@ Key Steps in the Project
    
 • We tested various models including ARIMA, SARIMAX, and LGBM. The LGBM model outperformed the others by capturing complex relationships and trends in the data, providing the most accurate forecasts.
 
-5. 📊 Analysis and Results:
+4. 📊 Analysis and Results:
    
 • The LGBM model proved exceptional in predicting sales, offering crucial insights into future sales trends that are essential for strategic planning.
 
