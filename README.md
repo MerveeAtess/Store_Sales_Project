@@ -12,30 +12,35 @@ Key Steps in the Project
 
 •We introduced new features such as lagged sales data, rolling averages, and interaction terms between promotions and holidays to enhance the prediction accuracy.
 
-•Key Features Added:
+Key Steps in the Project
 
-📅 Temporal Variables: Day, Month, Year, IsWeekend, etc.
+🔍 Problem Identification:
+• Rossmann faced the challenge of optimizing inventory management by accurately forecasting sales. This approach aimed to reduce excess stock and mitigate stock shortages across its extensive network of stores.
+
+🛠️ Feature Engineering:
+• To improve prediction accuracy, we introduced new features, such as lagged sales data, rolling averages, and interaction terms between promotions and holidays.
+
+• Key Features Added:
+
+📅 Temporal Variables: Day, Month, Year, IsWeekend, NEW_Day,NEW_Month, NEW_Year etc.
 
 ⏳ Lagged Features: Sales values lagged by 1, 7, and 30 days.
 
-📈 Rolling Features: 7 and 30-day rolling means, sums, and standard deviations of sales.
+🔄 Rolling Features: 7 and 30-day rolling means, sums, and standard deviations of sales.
 
-📊 Exponential Moving Averages: For a more responsive trend analysis.
+📈 Exponential Moving Averages: For a more responsive trend analysis.
 
-3.🤖 Modeling:
+📍 Modeling:
+• We tested various models including ARIMA, SARIMAX, and LGBM. The LGBM model outperformed the others by capturing complex relationships and trends in the data, providing the most accurate forecasts.
 
-•We experimented with several models, including ARIMA, SARIMAX, and LGBM. The LGBM model outperformed others, providing the most accurate forecasts with its ability to learn complex relationships and trends within the data.
+📊 Analysis and Results:
+• The LGBM model proved exceptional in predicting sales, offering crucial insights into future sales trends that are essential for strategic planning.
 
-4.📊 Analysis and Results:
+• Key Insights:
 
-•The LGBM model excelled in predicting sales, offering valuable insights into future sales trends, which is crucial for making informed strategic decisions.
+📉 Sales Trends: Showed significant variation across different store types and were influenced by seasonal factors like the Christmas season.
 
-•Key Insights:
+📆 Interaction Terms: Promotions during holidays had a marked impact on sales, effectively captured by our model.
 
-📉 Sales Trends: Varied significantly across different store types and were influenced by seasonal factors like the Christmas season.
-
-•📆 Interaction Terms: Promotions during holidays had a noticeable impact on sales, effectively captured by our model.
-
-5.📊 Visualization and Presentation:
-
-•We used Power BI to create interactive dashboards, enabling a clear and dynamic presentation of our findings and model predictions. The visualizations helped in understanding the temporal sales patterns and the effectiveness of our forecasting model.
+📈 Visualization and Presentation:
+• We utilized Power BI to craft interactive dashboards, delivering a clear and dynamic presentation of our findings and model predictions. The visualizations, which are included in the project, facilitate a deeper understanding of temporal sales patterns and the effectiveness of our forecasting model.
